@@ -29,6 +29,15 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import  vision from "./vision.png";
+import tictoc from "./tictoc.png"
+import  stage from "./stage.png";
+import cert1 from "./cert1.jpeg"
+import cert2 from "./cert2.png"
+import cert3 from "./cert3.png"
+import cert4 from "./cert4.png"
+import cert5 from "./cert5.png"
+import cert6 from "./cert6.png"
 
 export {
   logo,
@@ -59,4 +68,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  vision,
+  tictoc,
+  stage,
+  cert1,
+  cert2,
+  cert3,
+  cert4,
+  cert5,
+  cert6
 };

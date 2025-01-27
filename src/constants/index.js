@@ -23,16 +23,26 @@ import {
   jobit,
   tripguide,
   threejs,
+  vision,
+  tictoc,
+  stage,
+  cert1,
+  cert2,
+  cert3,
+  cert4,
+  cert5,
+  cert6,
+  
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "À propos",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Projet",
   },
   {
     id: "contact",
@@ -42,15 +52,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Deep Learning",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "IoT",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend",
     icon: backend,
   },
   {
@@ -77,7 +87,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "Tensorflow",
     icon: reactjs,
   },
   {
@@ -115,149 +125,219 @@ const technologies = [
 ];
 
 const experiences = [
+ 
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      title: "Stage Développeur Backend PHP/MySQL",
+      company_name: "Noraccount",
+      icon: meta, // Substitua por um ícone ou logo relevante
+      iconBg: "#E6DEDD",
+      date: "février 2021 - décembre 2021",
+      points: [
+        "Développement de la partie backend des sites web en utilisant PHP et MySQL.",
+        "Conception et gestion des bases de données pour optimiser le stockage et la récupération des données.",
+        "Implémentation de fonctionnalités backend robustes pour assurer la sécurité et la performance des applications.",
+        "Résolution de bugs et amélioration des systèmes backend existants.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Stage Développeur",
+    company_name: "Digichrone",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Avril 2024 - Juin 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Création d'un système utilisant TensorFlow, Keras et OpenCV pour la détection d'objets et de personnes dans des images de forêts.",
+      "Entraînement de modèles de Deep Learning pour identifier des personnes perdues en utilisant des images prises par des drones ou caméras.",
+      "Intégration de solutions d'IA pour améliorer la précision et la rapidité de la recherche.",
+  
     ],
   },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    
+    image: cert1,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    
+    image: cert2,
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: cert3,
+  },
+  {
+    image: cert4,
+  },
+  {
+    image: cert5,
+  },
+  {
+    image: cert6,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Surveillance de Santé",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Plateforme web permettant de surveiller la santé des patients en temps réel via une montre connectée, utilisant un backend intégré avec Django, ESP8266 et SQLite3 pour collecter et analyser les données de santé.",
     tags: [
       {
-        name: "react",
+        name: " Django",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: " ESP8266",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "SQLite3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Smart watch",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/rpjicond/Hospital-System",
   },
   {
-    name: "Job IT",
+    name: " Datacenter",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+      "Plateforme web dédiée à la sécurisation et à la surveillance d'un datacenter, Le système assure un contrôle d'accès biométrique, une vidéosurveillance et une gestion efficace des données à l'aide de solutions modernes de monitoring.",
+        tags: [
       {
-        name: "react",
+        name: "InfluxDB",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Node-RED",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Grafana",
         color: "pink-text-gradient",
+      },
+      {
+        name: "ESP8266",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " NFC",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "APIs (Telegram)",
+        color: "blue-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Chat Desktop en Java",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Application de chat en temps réel pour bureau, développée en Java. Le système permet aux utilisateurs de discuter instantanément via une interface conviviale et un backend robuste.",
     tags: [
       {
-        name: "nextjs",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Swing",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: " Messagerie Instantanée",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Détection de Personnes Perdues en Forêt ",
+    description:
+      "Système basé sur TensorFlow et Keras pour détecter et localiser des personnes perdues en forêt à partir d'images capturées, en utilisant des techniques de vision par ordinateur avec OpenCV. Ce projet utilise l'apprentissage profond pour améliorer la précision de la détection.",
+    tags: [
+      {
+        name: "Tensorflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Keras",
+        color: "green-text-gradient",
+      },
+      {
+        name: " OpenCV",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Deep Learning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Vision par Ordinateur",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: stage,
+    source_code_link: "https://github.com/",
+  },
+
+  {
+    name: "Jeu Tic-Tac-Toe avec IA en Python",
+    description:
+      "Jeu Tic-Tac-Toe développé en Python, intégrant une intelligence artificielle utilisant Scikit-learn pour jouer contre l'utilisateur, en optimisant les décisions basées sur des algorithmes d'apprentissage automatique.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SwingScikit-learn",
+        color: "green-text-gradient",
+      },
+      {
+        name: " IA",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Apprentissage Automatique",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: tictoc,
+    source_code_link: "https://github.com/rpjicond/tic-tac",
+  },
+
+  {
+    name: "Système de Suivi de Vitesse des Véhicules avec Licences",
+    description:
+      "Plateforme de surveillance des vitesses des véhicules basée sur les plaques d'immatriculation, utilisant des technologies de traitement d'images et de reconnaissance pour analyser et suivre la vitesse des véhicules en temps réel.",
+    tags: [
+      {
+        name: "OpenCV",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: vision,
     source_code_link: "https://github.com/",
   },
 ];
