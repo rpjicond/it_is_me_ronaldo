@@ -127,28 +127,28 @@ const technologies = [
 const experiences = [
  
   {
-      title: "Stage Développeur Backend PHP/MySQL",
-      company_name: "Noraccount",
+      title: " Stage - Développeur Fullstack Java / API REST",
+      company_name: "OBJECTIVO SIMILAR",
       icon: meta, // Substitua por um ícone ou logo relevante
       iconBg: "#E6DEDD",
-      date: "février 2021 - décembre 2021",
+      date: "Mars  2025 - Juin 2025 ",
       points: [
-        "Développement de la partie backend des sites web en utilisant PHP et MySQL.",
-        "Conception et gestion des bases de données pour optimiser le stockage et la récupération des données.",
-        "Implémentation de fonctionnalités backend robustes pour assurer la sécurité et la performance des applications.",
+        "Développement et optimisation de services backend avec Java 17, Spring Boot, Spring Batch.",
+        "Implémentation et test d'API RESTful avec Swagger / OpenAPI.",
+        "Travail en méthodologie Agile (Scrum/Kanban) avec Jira et Confluence.",
         "Résolution de bugs et amélioration des systèmes backend existants.",
     ],
   },
   {
-    title: "Stage Développeur",
+    title: "Stage – Développeur IA & IoT(Python et  C++)",
     company_name: "Digichrone",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Avril 2024 - Juin 2024",
     points: [
-      "Création d'un système utilisant TensorFlow, Keras et OpenCV pour la détection d'objets et de personnes dans des images de forêts.",
-      "Entraînement de modèles de Deep Learning pour identifier des personnes perdues en utilisant des images prises par des drones ou caméras.",
-      "Intégration de solutions d'IA pour améliorer la précision et la rapidité de la recherche.",
+      "Développement d’une solution d’IA avec TensorFlow, Keras et OpenCV pour la détection d’anomalies et de personnes perdues en forêt.",
+      "Intégration de protocoles IoT (MQTT, HTTPS, LoRa) pour assurer la communication entre les capteurs et la plateforme cloud.",
+      "Déploiement d’API REST permettant l’accès aux données en temps réel pour les équipes de secours.",
   
     ],
   },
