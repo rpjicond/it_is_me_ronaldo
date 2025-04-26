@@ -42,7 +42,7 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "Projet",
+    title: "Expérience",
   },
   {
     id: "contact",
@@ -204,6 +204,31 @@ const projects = [
     source_code_link: "https://github.com/rpjicond/Hospital-System",
   },
   {
+    name: "Surveillance de Santé",
+    description:
+      "Plateforme web permettant de surveiller la santé des patients en temps réel via une montre connectée, utilisant un backend intégré avec Django, ESP8266 et SQLite3 pour collecter et analyser les données de santé.",
+    tags: [
+      {
+        name: " Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: " ESP8266",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SQLite3",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Smart watch",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/rpjicond/Hospital-System",
+  },
+  {
     name: " Datacenter",
     description:
       "Plateforme web dédiée à la sécurisation et à la surveillance d'un datacenter, Le système assure un contrôle d'accès biométrique, une vidéosurveillance et une gestion efficace des données à l'aide de solutions modernes de monitoring.",
@@ -237,20 +262,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Chat Desktop en Java",
+    name: "Système IoT pour la Surveillance des Données",
     description:
-      "Application de chat en temps réel pour bureau, développée en Java. Le système permet aux utilisateurs de discuter instantanément via une interface conviviale et un backend robuste.",
+      "J'ai développé un système IoT utilisant HTML, CSS, PHP, JavaScript et MySQL pour stocker et visualiser les données des capteurs en temps réel. Le projet inclut la génération de fichiers JSON pour conserver l'historique des données de chaque module enregistré, assurant une gestion précise et efficace des informations.",
     tags: [
       {
-        name: "Java",
+        name: "HTML & CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "Swing",
+        name: "PHP",
         color: "green-text-gradient",
       },
       {
-        name: " Messagerie Instantanée",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
       {
@@ -259,8 +284,9 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/rpjicond/Monitoring_IoT/blob/main/Information_important.pdf.pdf",
   },
+  
 
   {
     name: "Détection de Personnes Perdues en Forêt ",
