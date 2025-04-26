@@ -204,12 +204,12 @@ const projects = [
     source_code_link: "https://github.com/rpjicond/Hospital-System",
   },
   {
-    name: "Surveillance de Santé",
+    name: "Surveillance de SantéPilotage de Minecraft en Réseau via Gants Connectés IoT avec ESP et Raspberry Pi",
     description:
-      "Plateforme web permettant de surveiller la santé des patients en temps réel via une montre connectée, utilisant un backend intégré avec Django, ESP8266 et SQLite3 pour collecter et analyser les données de santé.",
+      "Système IoT permettant de contrôler le jeu Minecraft à distance grâce à des gants connectés utilisant des ESP32 et un Raspberry Pi. Chaque gant est équipé de boutons sur chaque doigt (sauf le pouce), permettant de déclencher des actions dans le jeu telles que des superpouvoirs ou des pièges. Le projet inclut un mécanisme de détection de proximité du diamant caché, avec un affichage indiquant aux joueurs leur distance par rapport à l'objectif. Les gants sont alimentés par des batteries et communiquent sans fil avec le serveur central via Wi-Fi.",
     tags: [
       {
-        name: " Django",
+        name: "RaspberryPi",
         color: "blue-text-gradient",
       },
       {
@@ -217,11 +217,19 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "SQLite3",
+        name: "Minecraft",
         color: "pink-text-gradient",
       },
       {
-        name: "Smart watch",
+        name: "IoT",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Développement de systèmes embarqués",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "WiFi",
         color: "pink-text-gradient",
       },
     ],
