@@ -204,9 +204,9 @@ const projects = [
     source_code_link: "https://github.com/rpjicond/Hospital-System",
   },
   {
-    name: "Surveillance de SantéPilotage de Minecraft en Réseau via Gants Connectés IoT avec ESP et Raspberry Pi",
+    name: "Contrôle de Minecraft avec Gants IoT",
     description:
-      "Système IoT permettant de contrôler le jeu Minecraft à distance grâce à des gants connectés utilisant des ESP32 et un Raspberry Pi. Chaque gant est équipé de boutons sur chaque doigt (sauf le pouce), permettant de déclencher des actions dans le jeu telles que des superpouvoirs ou des pièges. Le projet inclut un mécanisme de détection de proximité du diamant caché, avec un affichage indiquant aux joueurs leur distance par rapport à l'objectif. Les gants sont alimentés par des batteries et communiquent sans fil avec le serveur central via Wi-Fi.",
+      "Système IoT permettant de contrôler Minecraft à distance avec des gants connectés via ESP32 et Raspberry Pi, intégrant des boutons pour déclencher des actions et localiser des diamants.",
     tags: [
       {
         name: "RaspberryPi",
@@ -267,7 +267,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://trello.com/b/R8oi2qPt",
   },
   {
     name: "Système IoT pour la Surveillance des Données",
